@@ -1417,8 +1417,8 @@
     "editor.quickSuggestionsDelay": 10,
     "editor.quickSuggestions": {
         "other": "on",
-        "comments": "inline",
-        "strings": "inline"
+        "comments": "off",
+        "strings": "off"
     },
     "editor.fontWeight": 1,
     "workbench.editor.empty.hint": "hidden",
