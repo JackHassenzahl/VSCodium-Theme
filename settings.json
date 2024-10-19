@@ -933,15 +933,15 @@
             {
                 "scope": "markup.italic", // *italic*
                 "settings": {
-                    "foreground": "#5656d6",
-                    "fontStyle": "italic"
+                    "foreground": "#56d69c",
+                    "fontStyle": "italic bold"
                 }
             },
             {
                 "scope": "markup.bold.markdown markup.italic.markdown", // ***italic bold***
                 "settings": {
                     "foreground": "#56d656",
-                    "fontStyle": "italic bold"
+                    "fontStyle": "italic"
                 }
             },
             {
@@ -1411,7 +1411,7 @@
         "editor.quickSuggestions": {
             "comments": "inline",
             "strings": "inline",
-            "other": "on"
+            "other": "inline"
         }
     },
     "editor.quickSuggestionsDelay": 10,
@@ -1424,5 +1424,6 @@
     "workbench.editor.empty.hint": "hidden",
     "files.autoSave": "off",
     "editor.largeFileOptimizations": false,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "files.defaultLanguage": "markdown"
 }
