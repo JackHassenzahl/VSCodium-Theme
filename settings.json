@@ -731,7 +731,7 @@
         //"editor.findMatchHighlightBorder": null,
         //"editor.findMatchHighlightForeground": null,
         //"editor.findRangeHighlightBorder": null,
-        "editor.lineHighlightBackground": "#111111",
+        "editor.lineHighlightBackground": "#080808",
         //"editor.rangeHighlightBorder": null,
         //"editor.selectionForeground": null,
         //"editor.selectionHighlightBorder": null,
@@ -940,7 +940,7 @@
             {
                 "scope": "markup.bold.markdown markup.italic.markdown", // ***italic bold***
                 "settings": {
-                    "foreground": "#56d656",
+                    "foreground": "#d656d6",
                     "fontStyle": "italic"
                 }
             },
@@ -1417,13 +1417,14 @@
     "editor.quickSuggestionsDelay": 10,
     "editor.quickSuggestions": {
         "other": "on",
-        "comments": "off",
-        "strings": "off"
+        "comments": "inline",
+        "strings": "inline"
     },
     "editor.fontWeight": 1,
     "workbench.editor.empty.hint": "hidden",
     "files.autoSave": "off",
     "editor.largeFileOptimizations": false,
     "workbench.startupEditor": "none",
-    "files.defaultLanguage": "markdown"
+    "files.defaultLanguage": "markdown",
+    "window.menuBarVisibility": "classic",
 }
